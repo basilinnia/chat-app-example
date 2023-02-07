@@ -26,5 +26,5 @@ message.addEventListener('keypress', () => {
 })
 
 socket.on('typing', data => {
-    feedback.innerHTML = '<p>' + data +'is writing....</p>'
+    feedback.innerHTML = '<p>' + data +' is writing....</p>'
 })
